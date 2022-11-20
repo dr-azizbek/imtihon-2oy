@@ -1,0 +1,316 @@
+@media only screen and (max-width: 375px) {
+
+    .container {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        .nav__menu {
+            position: absolute;
+            left: 30px;
+        }
+
+        .scoot__nav {
+            .nav__list {
+                display: none;
+            }
+        }
+
+        .nav__btn {
+            display: none;
+        }
+    }
+
+    .scooter__img {
+        background-image: url(../img/phone/scooter-mobile.jpg);
+
+        .scooter__text {
+            position: relative;
+            top: 55px;
+            height: 120px;
+            width: 311px;
+            left: 32px;
+            font-size: 40px;
+        }
+
+        .scooter__p {
+            position: relative;
+            margin-top: -60px;
+            width: 311px;
+            height: 125px;
+            left: 32px;
+            top: 184px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        button {
+            position: relative;
+            left: -195px;
+        }
+
+        .line2 {
+            position: relative;
+            left: -450px;
+        }
+    }
+
+    .hr {
+        display: none;
+    }
+
+    .app {
+        .app__img {
+            display: block;
+            position: relative;
+            margin-bottom: 300px;
+
+            .img__app {
+                position: relative;
+                margin-left: 60px;
+                margin-bottom: 10px;
+            }
+
+            .app-texts {
+                text-align: center;
+
+                .app__text {
+                    position: relative;
+                    top: 10px;
+                    left: 10px;
+                }
+
+                .app__p {
+                    position: relative;
+                    top: 75px;
+                    left: -190px;
+                }
+            }
+        }
+    }
+
+    .easy {
+        display: block;
+
+        .easy__texts {
+            position: relative;
+            left: 10px;
+            top: 105px;
+
+            .easy__span {
+                position: absolute;
+                margin-top: -1500px;
+                left: 20px;
+                width: 311px;
+                height: 64px;
+                font-size: 32px;
+            }
+
+            .easy__p {
+                position: relative;
+                left: 25px;
+                top: 75px;
+                width: 311px;
+                height: 150px;
+                font-size: 15px;
+            }
+
+            button {
+                position: relative;
+                left: -35px;
+                top: 105px;
+            }
+        }
+
+        .img__circle {
+            position: relative;
+            top: -580px;
+            left: 33px;
+
+            .easy__img {
+                img {
+                    width: 361;
+                    height: 311px;
+                    object-fit: contain;
+                }
+            }
+
+            .all__line {
+                position: relative;
+                margin-left: 220px;
+                top: 160px;
+            }
+        }
+    }
+
+    .city {
+        display: block;
+        position: relative;
+        top: -510px;
+
+        .circle__img-city {
+            .city__circle {
+                position: relative;
+                margin-left: -472px;
+            }
+
+            .city__img {
+                // position: relative;
+                left: -32px;
+                top: 0px;
+
+                img {
+                    width: 311px;
+                    height: 311px;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .city__line {
+            position: relative;
+            top: 165px;
+            left: -55px;
+        }
+
+        .easy__texts {
+            position: relative;
+            left: 35px;
+            width: 300px;
+            top: -80px;
+
+            .easy__span {
+                width: 300px;
+                height: 64px;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 32px;
+                text-align: center;
+                letter-spacing: -1.42857px;
+                color: #495567;
+            }
+
+            .easy__p {
+                width: 311px;
+                height: 150px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .zero {
+        display: block;
+        position: relative;
+        top: -280px;
+        left: -170px;
+
+        .img__circle {
+            .easy__img {
+                img {
+                    width: 311px;
+                    height: 311px;
+                    object-fit: contain;
+                }
+            }
+
+            .zero__line {
+                position: relative;
+                left: -310px;
+            }
+        }
+
+        .easy__texts {
+            position: relative;
+            left: 135px;
+            top: 170px;
+
+            .easy__texts {
+                width: 311px;
+                height: 64px;
+                font-size: 32px;
+            }
+
+            .easy__p {
+                position: relative;
+                left: 65px;
+                width: 311px;
+                height: 150px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .download {
+        position: relative;
+        margin-top: -325px;
+        height: 320px;
+        width: 375px;
+
+        .dowload__span {
+            width: 311px;
+            height: 64px;
+            left: 32px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -1.42857px;
+            color: #FFFFFF;
+        }
+
+        .app__google {
+            position: relative;
+            left: -498px;
+        }
+
+        .download__circle {
+            position: relative;
+            left: 140px;
+            top: 10px;
+        }
+    }
+
+    .foter__container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 438px;
+        width: 375px;
+
+        .footer_scoot {
+            display: block;
+
+            img {
+                position: relative;
+                top: 64px;
+            }
+
+            .footer__list {
+                display: block;
+                position: relative;
+                top: 100px;
+
+                li {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .footer__icons {
+            margin-top: 200px;
+            left: 140px;
+        }
+
+    }
+}
