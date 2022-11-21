@@ -862,6 +862,8 @@ a {
     height: 112px;
   }
   .download {
+    position: relative;
+    margin-top: 605px;
     height: 320px;
     width: 375px;
   }
